@@ -136,7 +136,7 @@ export interface IconProps {
 }
 
 export const Icons = {
-    OnlookLogo: ({ className, ...props }: IconProps) => (
+    BrowzaiLogo: ({ className, ...props }: IconProps) => (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 22 22"
@@ -200,7 +200,7 @@ export const Icons = {
             </defs>
         </svg>
     ),
-    OnlookIcon: ({ className, ...props }: IconProps) => (
+    BrowzaiIcon: ({ className, ...props }: IconProps) => (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width={22}
@@ -252,7 +252,7 @@ export const Icons = {
             </defs>
         </svg>
     ),
-    OnlookTextLogo: ({ className, ...props }: IconProps) => (
+    BrowzaiTextLogo: ({ className, ...props }: IconProps) => (
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="139"
