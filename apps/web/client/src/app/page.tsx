@@ -9,7 +9,7 @@ import { ContributorSection } from './_components/landing-page/contributor-secti
 import { CTASection } from './_components/landing-page/cta-section';
 import { FAQSection } from './_components/landing-page/faq-section';
 import { TestimonialsSection } from './_components/landing-page/testimonials-section';
-import { WhatCanOnlookDoSection } from './_components/landing-page/what-can-onlook-do-section';
+import { WhatCanBrowzaiDoSection } from './_components/landing-page/what-can-browzai-do-section';
 import { WebsiteLayout } from './_components/website-layout';
 
 export default function Main() {
@@ -23,7 +23,7 @@ export default function Main() {
                 {/* <FeaturesSection /> */}
                 {/* <CodeOneToOneSection /> */}
                 <ContributorSection />
-                <WhatCanOnlookDoSection />
+                <WhatCanBrowzaiDoSection />
                 {/* <ObsessForHoursSection /> */}
                 <TestimonialsSection />
                 <FAQSection />

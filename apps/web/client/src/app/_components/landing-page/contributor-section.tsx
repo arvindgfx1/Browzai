@@ -31,7 +31,7 @@ const FloatingRings = () => {
     useEffect(() => {
         const fetchContributors = async () => {
             try {
-                const response = await fetch('https://api.github.com/repos/onlook-dev/onlook/contributors?per_page=100');
+                                 const response = await fetch('https://api.github.com/repos/arvindgfx1/browzai/contributors?per_page=100');
                 if (!response.ok) {
                     throw new Error('Failed to fetch contributors');
                 }
@@ -144,7 +144,7 @@ interface ContributorSectionProps {
 
 export function ContributorSection({
     contributorCount = 9412,
-    githubLink = "https://github.com/onlook-dev/onlook",
+    githubLink = "https://github.com/arvindgfx1/browzai",
     discordLink = "https://discord.gg/ZZzadNQtns"
 }: ContributorSectionProps) {
     const [starCount, setStarCount] = useState<string>("0");
@@ -157,7 +157,7 @@ export function ContributorSection({
     useEffect(() => {
         const fetchStarCount = async () => {
             try {
-                const response = await fetch('https://api.github.com/repos/onlook-dev/onlook');
+                                 const response = await fetch('https://api.github.com/repos/arvindgfx1/browzai');
                 const data = await response.json();
                 setStarCount(formatStarCount(data.stargazers_count));
                 setIsLoading(false);
@@ -188,7 +188,7 @@ export function ContributorSection({
                         target="_blank"
                         className="bg-foreground-primary text-background-primary text-regularPlus rounded-lg px-6 py-3 flex items-center gap-2 shadow hover:bg-foreground-primary/80 transition cursor-pointer"
                     >
-                        Contribute to Onlook
+                                                 Contribute to Browzai
                         <Icons.GitHubLogo className="w-4.5 h-4.5" />
                     </Link>
                     <Link

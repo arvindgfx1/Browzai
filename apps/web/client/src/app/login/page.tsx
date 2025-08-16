@@ -21,7 +21,7 @@ export default function LoginPage() {
             <div className="flex flex-col justify-between w-full h-full max-w-xl p-16 space-y-8 overflow-auto">
                 <div className="flex items-center space-x-2">
                     <Link href={Routes.HOME} className="hover:opacity-80 transition-opacity">
-                        <Icons.OnlookTextLogo viewBox="0 0 139 17" />
+                        <Icons.BrowzaiTextLogo viewBox="0 0 139 17" />
                     </Link>
                 </div>
                 <div className="space-y-8">
@@ -41,7 +41,7 @@ export default function LoginPage() {
                     <p className="text-small text-foreground-onlook">
                         {t(transKeys.welcome.terms.agreement)}{' '}
                         <Link
-                            href="https://onlook.com/privacy-policy"
+                            href="https://browzai.com/privacy-policy"
                             target="_blank"
                             className="text-gray-300 hover:text-gray-50 underline transition-colors duration-200"
                         >
@@ -50,7 +50,7 @@ export default function LoginPage() {
                         {' '}
                         {t(transKeys.welcome.terms.and)}{' '}
                         <Link
-                            href="https://onlook.com/terms-of-service"
+                            href="https://browzai.com/terms-of-service"
                             target="_blank"
                             className="text-gray-300 hover:text-gray-50 underline transition-colors duration-200"
                         >
@@ -66,7 +66,7 @@ export default function LoginPage() {
                 <Image
                     className="w-full h-full object-cover rounded-xl hidden dark:flex"
                     src={backgroundUrl}
-                    alt="Onlook dunes dark"
+                    alt="Browzai dunes dark"
                     width={1000}
                     height={1000}
                 />

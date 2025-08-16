@@ -10,7 +10,7 @@ import { AuthButton } from './user';
 const LINKS = [
     {
         href: Routes.HOME,
-        child: <Icons.OnlookTextLogo className="h-3" />,
+        child: <Icons.BrowzaiTextLogo className="h-3" />,
     },
     {
         href: Routes.PRICING,

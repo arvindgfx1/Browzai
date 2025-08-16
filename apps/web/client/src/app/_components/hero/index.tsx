@@ -37,7 +37,7 @@ export function Hero() {
                     transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
                     style={{ willChange: "opacity, filter", transform: "translateZ(0)" }}
                 >
-                    Onlook is a next-generation visual code editor<br />
+                    Browzai is a next-generation visual code editor<br />
                     that lets designers and product managers craft<br />
                     web experiences with AI
                 </motion.p>
@@ -77,7 +77,7 @@ export function Hero() {
 
             </div>
             <div className="sm:hidden text-balance flex flex-col gap-4 items-center relative z-20 px-10">
-                Onlook isn't ready for Mobile – Please open on a larger screen
+                Browzai isn't ready for Mobile – Please open on a larger screen
             </div>
         </div>
     );

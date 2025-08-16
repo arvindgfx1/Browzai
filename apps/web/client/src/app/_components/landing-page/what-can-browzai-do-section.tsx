@@ -96,7 +96,7 @@ function ParallaxContainer({ children, speed = 0.1 }: { children: React.ReactNod
     );
 }
 
-export function WhatCanOnlookDoSection() {
+export function WhatCanBrowzaiDoSection() {
     // Detect operating system for keyboard shortcuts
     const os = useOperatingSystem();
 
@@ -130,7 +130,7 @@ export function WhatCanOnlookDoSection() {
     // Version data for Today section
     const todayVersions = [
         { title: 'New typography and layout', subtitle: 'Alessandro · 3h ago' },
-        { title: 'Save before publishing', subtitle: 'Onlook · 10h ago' },
+        { title: 'Save before publishing', subtitle: 'Browzai · 10h ago' },
         { title: 'Added new background image', subtitle: 'Sandra · 12h ago' },
         { title: 'Copy improvements and new branding', subtitle: 'Jonathan · 3d ago' },
     ];
@@ -286,7 +286,7 @@ export function WhatCanOnlookDoSection() {
             <div className="w-full max-w-6xl mx-auto py-32 px-8 flex flex-col md:flex-row gap-24 md:gap-24">
                 {/* Left Column */}
                 <div className="flex-1 flex flex-col gap-24">
-                    <h2 className="text-foreground-primary text-6xl leading-[1.1] font-light mb-8 max-w-xl">What can<br />Onlook do?</h2>
+                    <h2 className="text-foreground-primary text-6xl leading-[1.1] font-light mb-8 max-w-xl">What can<br />Browzai do?</h2>
                     <DirectEditingBlock />
                     <ComponentsBlock />
                     <RevisionHistory />
@@ -335,4 +335,4 @@ export function WhatCanOnlookDoSection() {
             </div>
         </>
     );
-} 
+}
